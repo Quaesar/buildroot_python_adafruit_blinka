@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_ADAFRUIT_BLINKA
+	bool "python-adafruit-blinka"
+	select BR2_PACKAGE_PYTHON
+	help
+	  Adafruit-Blinka Library
+
+	  http://pypi.python.org/pypi/Adafruit-Blinka
